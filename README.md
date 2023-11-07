@@ -1,5 +1,7 @@
 # UD2 A1 Mi primera página Web
 
+**Index : [Index.html](/Apuntes/UD2-HTML/UD2%20A1.%20Mi%20primera%20p%C3%A1gina%20web/index.html)**
+
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
 
