@@ -1,0 +1,63 @@
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#rellenar {
+    background-color: #F0E68C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#enunciado-for {
+    padding: 10px;
+}
+
+#ejer-for {
+    text-align: center;
+}
+.fondo-for {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    font-size: larger;
+}
+
+/* 
+zona grid
+*/
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav
+}
+
+aside {
+    grid-area: aside;
+}
+
+section {
+    grid-area: section;
+}
+
+footer {
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-areas:
+        "header"
+        "nav"
+        "section"
+        "footer";
+}
