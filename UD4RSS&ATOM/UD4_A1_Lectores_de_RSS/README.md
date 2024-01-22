@@ -16,6 +16,7 @@ Date de alta en feedly.com y:
   ![captura 1](imagenes/deportes.png)
 - Añade a la categoría de noticias
   - Añade varias fuentes relacionadas con las noticias.
+    
     ![captura 2](imagenes/captura%202.png)
 - Añade la fuente del europarlamento relacionada con la agricultura y pesca
   
