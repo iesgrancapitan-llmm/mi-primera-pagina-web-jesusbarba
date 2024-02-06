@@ -1,0 +1,25 @@
+<!ELEMENT Factura (cabecera, apunte+)>
+ <!ATTLIST cabecera factura_id ID #REQUIRED> 
+<!ELEMENT cabecera (fecha, cliente)>
+<!ELEMENT fecha ((dia, mes, anno) | (mes, dia, anno))>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+  <!ATTLIST cliente cliente_id NMTOKEN #REQUIRED>
+  <!ATTLIST cliente nombre CDATA #IMPLIED>
+  <!ATTLIST cliente telefono NMTOKEN #IMPLIED>
+<!ELEMENT cliente (direccion)>
+<!ELEMENT direccion (nombre_via, numero, localidad, provincia, cp, pais?)>
+<!ELEMENT nombre_via (#PCDATA)>
+  <!ATTLIST nombre_via tipo_via NOTATION (Calle | Avda | Plaza | Carretera) "Calle">
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT apunte (concepto)>
+  <!ATTLIST apunte precio NMTOKEN #REQUIRED>
+  <!ATTLIST apunte descuento NOTATION (promocion | regular) "regular"  >
+  <!ATTLIST apunte moneda "euro"  #IMPLIED>
+<!ELEMENT concepto (#PCDATA)>
+  <!ATTLIST concepto cantidad ID #IMPLIED>

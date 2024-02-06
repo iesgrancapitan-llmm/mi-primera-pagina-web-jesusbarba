@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+  <cliente nombre="Juan Delgado Martinez"/>
+  <producto tipo="Bicicleta">A2023</producto>
+  <datos_cliente>
+    <direccion_entrega>Calle Barco 4</direccion_entrega>
+    <piso>3A</piso>
+    <fecha_entrega>19-05-2000</fecha_entrega>
+  </datos_cliente>
+</pedidos>
