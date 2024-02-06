@@ -1,0 +1,87 @@
+<rss version="2.0">
+<!--Info sobre el canal.-->
+<channel>
+    <title>PcComponentes</title>
+    <link>https://ubiquitous-disco-8p9j4l1.pages.github.io/</link>
+    <description>Portal especializado en la venta de dispositivos electrónicos.</description>
+    <copyright>Copyright 2009-2023 pccomponentes.com</copyright>
+    <category>Venta de dispositivos electrónicos.</category>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 22 Jan 2024 18:15:00 GMT</lastBuildDate>
+    <webMaster>a21bareje@iesgrancapitan.org (Jesús Pablo Barba Reyes)</webMaster>
+    <skipDays>
+        <day>Saturday</day>
+        <day>Sunday</day>
+    </skipDays>
+    <skipHours>
+        <hour>0</hour>
+        <hour>1</hour>
+        <hour>2</hour>
+        <hour>3</hour>
+        <hour>4</hour>
+        <hour>5</hour>
+    </skipHours>
+    <image>
+        <url>https://upload.wikimedia.org/wikipedia/commons/e/e0/PcComponentes.png</url>
+        <title>PcComponentes</title>
+        <link>https://ubiquitous-disco-8p9j4l1.pages.github.io/</link>
+    </image>
+<!--Info sobre el primer artículo Nintendo Switch.-->
+    <item>
+        <title>Nintendo Switch OLED Blanca</title>
+        <link>https://www.pccomponentes.com/nintendo-switch-oled-blanca</link>
+        <guid>https://www.pccomponentes.com/nintendo-switch-oled-blanca</guid>
+        <description>Nintendo Switch (modelo OLED) incluye una pantalla de 7 pulgadas con un marco más 
+        fino. Los colores intensos y el alto contraste de la pantalla proporcionan una experiencia de 
+        juego portátil y de sobremesa enriquecedora, y aportan mucha vida a los juegos, tanto si 
+        compites a gran velocidad sobre el asfalto como si te ves las caras con enemigos temibles.</description>
+        <author>a21bareje@iesgrancapitan.org (Jesús Pablo Barba Reyes)</author>
+        <enclosure url="https://www.youtube.com/watch?v=XoMEATvLpyA&amp;ab_channel=NintendoEspa%C3%B1a" length="78645" type="video/wmv"/>
+        <pubDate>Mon, 22 Jan 2024 17:00:00 GMT</pubDate>
+        <source url="https://www.nintendo.es/Hardware/Familia-Nintendo-Switch/Nintendo-Switch/Nintendo-Switch-1148779.html">Nintendo Switch</source>
+    </item>
+    <!--Info segundo artículo Iphone14.-->
+    <item>
+        <title>Apple iPhone 15 128GB Blanco</title>
+        <link>https://www.pccomponentes.com/apple-iphone-14-128gb-blanco-estrella-libre</link>
+        <guid>https://www.pccomponentes.com/apple-iphone-14-128gb-blanco-estrella-libre</guid>
+        <description>Nuestra mejor batería hasta hoy. Y hasta mañana. 
+        Un salto brillante para fotos con poca luz. iPhone 14: El multitalento.</description>
+        <author>a21bareje@iesgrancapitan.org (Jesús Pablo Barba Reyes)</author>
+        <enclosure url="https://www.youtube.com/watch?v=pwudzGWRVjg&amp;ab_channel=VictorAbarca" length="78645" type="video/wmv"/>
+        <pubDate>Mon, 22 Jan 2024 18:42:00 GMT</pubDate>
+        <source url="https://www.apple.com/es/shop/buy-iphone/iphone-14">iPhone 14</source>
+    </item>
+    <!--Info tercer artículo PS5-->
+    <item>
+        <title>Sony PlayStation 5 Chasis C + 2 DualSense + God of War Ragnarök + PSN 50€</title>
+        <link>https://www.pccomponentes.com/sony-playstation-5-chasis-c-2-dualsense-god-of-war-ragnarok-psn-50eur</link>
+        <guid>https://www.pccomponentes.com/sony-playstation-5-chasis-c-2-dualsense-god-of-war-ragnarok-psn-50eur</guid>
+        <description>PlayStation® 5: Jugar no tiene límites. Experimenta cargas superrápidas gracias 
+        a una unidad de estado sólido (SSD) de alta velocidad, una inmersión más profunda con 
+        retroalimentación háptica, gatillos adaptables y audio 3D, además de una nueva generación 
+        de increíbles juegos de PlayStation®.</description>
+        <author>a21bareje@iesgrancapitan.org (Jesús Pablo Barba Reyes)</author>
+        <enclosure url="https://www.youtube.com/watch?v=RkC0l4iekYo&amp;ab_channel=PlayStation" length="78645" type="video/wmv"/>
+        <pubDate>Mon, 22 Jan 2024 18:47:00 GMT</pubDate>
+        <source url="https://www.playstation.com/es-es/ps5/">Ps5</source>
+    </item>
+    <!--Info cuarto artículo MSI MEG Trident X2-->
+    <item>
+        <title>MSI MEG Trident X2 13NUI-015ES Intel Core i9-13900KF/64GB/2TB SSD/RTX4090</title>
+        <link>https://www.pccomponentes.com/msi-meg-trident-x2-13nui-015es-intel-core-i9-13900kf-64gb-2tb-ssd-rtx4090</link>
+        <guid>https://www.pccomponentes.com/msi-meg-trident-x2-13nui-015es-intel-core-i9-13900kf-64gb-2tb-ssd-rtx4090</guid>
+        <description>Lleve sus experiencias de entretenimiento y creación de contenido al siguiente 
+        nivel con la 13.ª generación para juegos MEG Trident X2 de MSI. Diseñado para un alto 
+        rendimiento, este sistema de escritorio reduce los tiempos de carga con un procesador 
+        Intel Core 13.ª generación, memoria DDR5 y una unidad de estado sólido NVMe PCIe 4.0 
+        ultrarrápida de 2 TB. Al mismo tiempo, la tarjeta gráfica NVIDIA GeForce RTX 40 está 
+        diseñada para ofrecer altas velocidades de cuadro, impresionantes imágenes con trazado 
+        de rayos y capacidades fluidas de transmisión en vivo.</description>
+        <author>a21bareje@iesgrancapitan.org (Jesús Pablo Barba Reyes)</author>
+        <enclosure url="https://www.youtube.com/watch?v=5WjlJj87qnM&amp;ab_channel=MSIEspa%C3%B1a" length="78645" type="video/wmv"/>
+        <pubDate>Mon, 22 Jan 2024 18:51:00 GMT</pubDate>
+        <source url="https://es.msi.com/Desktop/MEG-Trident-X2-13th">Msi meg</source>
+    </item>
+</channel>
+</rss>
