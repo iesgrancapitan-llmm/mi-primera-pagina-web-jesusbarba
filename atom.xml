@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Info sobre el canal.-->
+<!--Fallo en las entradas al agregar el código HTML.-->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="http://www.ejemplo.org">
+    <title>Corte Ingles</title>
+    <link rel="enclosure" type="text/html" href="https://ubiquitous-disco-8p9j4l1.pages.github.io/"/>
+    <updated>2023-01-19T10:09:30Z</updated>
+    <author>
+        <name>Jesús Pablo Barba Reyes</name>
+    </author>
+    <id>urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6</id>
+    <rights>Copyright (c) 2023, Jesús Barba Reyes.</rights>
+    <subtitle>Portal especializado en la venta de ropa para el gimnasio.</subtitle>
+    <entry>
+        <title type="html">Pantalón chándal fitness</title>
+        <link rel="alternate" href="https://www.decathlon.es/es/p/pantalon-chandal-fitness-algodon-ajustado-hombre-domyos-500/_/R-p-332545?mc=8665376&amp;c=NEGRO"/>
+        <link rel="enclosure" type="text/html" href="https://www.youtube.com/watch?v=dL4Vwy5xW28" />
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b</id>
+        <updated>2023-01-19T09:53:00Z</updated>
+        <source>
+            <id>https://www.domyos.co.uk/</id>
+            <title>Página Oficial DOMYOS</title>
+            <updated>2023-01-21T17:47:32Z</updated>
+        </source>
+        <published>2023-01-19T09:16:00Z</published>
+        <summary>Tejido principal 50% Algodón, 47% Polietileno tereftalato (PET), 
+            3% Elastán Bolsillo 100% Algodón Tejido de las costillas 58% Algodón, 
+            38% Polietileno tereftalato (PET), 4% Elastán</summary>
+        <author>
+            <name>Jesus Pablo barba reyes</name>
+            <email>a21bareje@iesgrancapitan.org</email>
+        </author>
+        <category term="pantalon"/>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <ul>
+                    <h1>Pantalón chándal fitness algodón ajustado Hombre Domyos 500+ negro</h1>
+                    <h2>19,99€</h2>
+                    <p>Tejido principal 50% Algodón, 47% Polietileno tereftalato (PET), 
+                        3% Elastán Bolsillo 100% Algodón Tejido de las costillas 58% Algodón, 
+                    38% Polietileno tereftalato (PET), 4% Elastán
+                </p>
+                </ul>
+            </div>
+        </content>
+    </entry>
+    <entry>
+        <title>Apple iPhone 12 64GB Blanco Libre</title>
+        <link rel="alternate" href="https://www.pccomponentes.com/apple-iphone-12-64gb-blanco-libre"/>
+        <link rel="enclosure" type="text/html" href="https://www.youtube.com/watch?v=vzqnPVPn_c0&amp;ab_channel=TopesdeGama" />
+        <link rel="enclosure" type="text/pdf" href="https://www.unirioja.es/servicios/soa/telefonia/iphone_ios7_manual_del_usuario.pdf" />
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+        <updated>2023-01-19T10:28:00Z</updated>
+        <summary>Más allá de la velocidad. Tecnología 5G. Chip A14 Bionic, el más veloz en un 
+        smartphone. Pantalla OLED de borde a borde. Ceramic Shield, cuatro veces más resistente a 
+        las caídas. Modo Noche en cada una de las cámaras. Y dos tamaños: ideal y perfecto. Sí, el 
+        iPhone 12 lo tiene todo.</summary>
+        <author>
+            <name>Jesus Pablo Barba Reyes</name>
+            <email>a21bareje@iesgrancapitan.org</email>
+        </author>
+        <category term="apple"/>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <ul>
+                    <h1>Apple iPhone 12 64GB Blanco Libre</h1>
+                    <h2>817€</h2>
+                    <p>Más allá de la velocidad. Tecnología 5G. Chip A14 Bionic, el más veloz en un 
+        smartphone. Pantalla OLED de borde a borde. Ceramic Shield, cuatro veces más resistente a 
+        las caídas. Modo Noche en cada una de las cámaras. Y dos tamaños: ideal y perfecto. Sí, el 
+        iPhone 12 lo tiene todo.</p>
+                </ul>
+            </div>
+        </content>
+    </entry>
+    <entry>
+        <title>Sony PlayStation 5 Chasis C + 2 DualSense + God of War Ragnarök + PSN 50€</title>
+        <link rel="alternate" href="https://www.pccomponentes.com/sony-playstation-5-chasis-c-2-dualsense-god-of-war-ragnarok-psn-50eur"/>
+        <link rel="enclosure" type="text/html" href="https://www.youtube.com/watch?v=6akVHeJmk7c&amp;ab_channel=clipset" />
+        <link rel="enclosure" type="text/pdf" href="https://www.playstation.com/content/dam/global_pdc/es-es/corporate/support/manuals/ps5-docs/1000a/CFI-10XXA_PS5_Quick_Start_Guide$es-es.pdf" />
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6c</id>
+        <updated>2023-01-19T10:30:00Z</updated>
+        <summary>PlayStation® 5: Jugar no tiene límites. Experimenta cargas superrápidas gracias 
+        a una unidad de estado sólido (SSD) de alta velocidad, una inmersión más profunda con 
+        retroalimentación háptica, gatillos adaptables y audio 3D, además de una nueva generación 
+        de increíbles juegos de PlayStation®.</summary>
+        <author>
+            <name>Jesus Pablo Barba Reyes</name>
+            <email>a21bareje@iesgrancapitan.org</email>
+        </author>
+        <category term="sony"/>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <ul>
+                    <h1>Sony PlayStation 5 Chasis C + 2 DualSense + God of War Ragnarök + PSN 50€</h1>
+                    <h2>670€</h2>
+                    <p>PlayStation® 5: Jugar no tiene límites. Experimenta cargas superrápidas gracias 
+            a una unidad de estado sólido (SSD) de alta velocidad, una inmersión más profunda con 
+            retroalimentación háptica, gatillos adaptables y audio 3D, además de una nueva generación 
+            de increíbles juegos de PlayStation®.</p>
+                </ul>
+            </div>
+        </content>
+    </entry>
+    <entry>
+        <title>Train 8" Short</title>
+        <link rel="alternate" href="https://www.pccomponentes.com/msi-meg-trident-x2-13nui-015es-intel-core-i9-13900kf-64gb-2tb-ssd-rtx4090"/>
+        <link rel="enclosure" type="text/html" href="https://www.youtube.com/watch?v=IO3_ATgy52c&amp;ab_channel=LinusTechTips" />
+        <link rel="enclosure" type="text/pdf" href="https://download.msi.com/archive/mnu_exe/mb/E7D04v1.0.pdf" />
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6e</id>
+        <updated>2023-01-19T10:32:00Z</updated>
+        <summary>Lleve sus experiencias de entretenimiento y creación de contenido al siguiente 
+        nivel con la 13.ª generación para juegos MEG Trident X2 de MSI. Diseñado para un alto 
+        rendimiento, este sistema de escritorio reduce los tiempos de carga con un procesador 
+        Intel Core 13.ª generación, memoria DDR5 y una unidad de estado sólido NVMe PCIe 4.0 
+        ultrarrápida de 2 TB. Al mismo tiempo, la tarjeta gráfica NVIDIA GeForce RTX 40 está 
+        diseñada para ofrecer altas velocidades de cuadro, impresionantes imágenes con trazado 
+        de rayos y capacidades fluidas de transmisión en vivo.</summary>
+        <contributor>
+            <name>Jesús Barba Reyes</name>
+            <email>a21bareje@iesgrancapitan.org</email>
+        </contributor>
+        <category term="msi"/>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <ul>
+                    <h1>MSI MEG Trident X2 13NUI-015ES Intel Core i9-13900KF/64GB/2TB SSD/RTX4090</h1>
+                    <h2>3199€</h2>
+                    <p>Lleve sus experiencias de entretenimiento y creación de contenido al siguiente 
+            nivel con la 13.ª generación para juegos MEG Trident X2 de MSI. Diseñado para un alto 
+            rendimiento, este sistema de escritorio reduce los tiempos de carga con un procesador 
+            Intel Core 13.ª generación, memoria DDR5 y una unidad de estado sólido NVMe PCIe 4.0 
+            ultrarrápida de 2 TB. Al mismo tiempo, la tarjeta gráfica NVIDIA GeForce RTX 40 está 
+            diseñada para ofrecer altas velocidades de cuadro, impresionantes imágenes con trazado 
+            de rayos y capacidades fluidas de transmisión en vivo.</p>
+                </ul>
+            </div>
+        </content>
+    </entry>
+</feed>
