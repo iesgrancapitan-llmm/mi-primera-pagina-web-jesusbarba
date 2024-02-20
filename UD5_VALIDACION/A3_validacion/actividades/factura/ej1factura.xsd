@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Factura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cabecera"/>
+        <xs:element ref="apunte" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cabecera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fecha"/>
+        <xs:element ref="cliente"/>
+      </xs:sequence>
+      <xs:attribute name="factura_id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fecha">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="mes" type="xs:string"/>
+        <xs:element name="dia" type="xs:integer"/>
+        <xs:element name="anno" type="xs:integer"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="direccion"/>
+      </xs:sequence>
+      <xs:attribute name="cliente_id" type="xs:string" use="required"/>
+      <xs:attribute name="nombre" type="xs:string" use="optional"/>
+      <xs:attribute name="telefono" type="validar_tlf" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="direccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre_via">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="tipovia" type="validar_tipovia" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="numero" type="xs:integer"/>
+        <xs:element name="localidad" type="xs:string"/>
+        <xs:element name="provincia" type="xs:string"/>
+        <xs:element name="cp" type="xs:integer"/>
+        <xs:element name="pais" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="apunte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="concepto"/>
+      </xs:sequence>
+      <xs:attribute name="descuento" type="validar_descuento" use="optional"/>
+      <xs:attribute name="moneda" type="xs:string" fixed="euro" use="optional"/>
+      <xs:attribute name="precio" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="concepto">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="cantidad" type="validar_cantidad" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="validar_tipovia">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Calle"/>
+      <xs:enumeration value="Avda"/>
+      <xs:enumeration value="Plaza"/>
+      <xs:enumeration value="Carretera"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="validar_descuento">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="promocion"/>
+      <xs:enumeration value="regular"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="validar_tlf">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+    </xs:restriction>  
+  </xs:simpleType>
+  <xs:simpleType name="validar_cantidad">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

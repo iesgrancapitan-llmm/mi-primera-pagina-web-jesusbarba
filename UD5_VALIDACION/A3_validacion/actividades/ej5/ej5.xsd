@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="personas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="datos_persona"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datos_persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="apellidos" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="dni" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="comentario" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="forma_pago"/>
+      </xs:sequence>
+      <xs:attribute name="fecha_nacimiento" type="xs:date" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forma_pago">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tipo" type="tipo" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="numero" type="validar_numero" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!--DUDA: Como hacer restricción que si el valor de tipo es tarjeta almacene un número de tarjeta válido con pattern.-->
+  <!--Restricción para los tipos de forma de pago válidos-->
+  <xs:simpleType name="tipo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Tarjeta"/>
+      <xs:enumeration value="Transferencia"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Restricción para validar que el número introducido sea válido.-->
+  <xs:simpleType name="validar_numero">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

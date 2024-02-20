@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="ej4.xsd">
+  <datos_persona fecha_nacimiento="1995-06-25">
+    <nombre>María</nombre>
+    <apellidos>Cobo</apellidos>
+    <dni>12345678A</dni>
+    <comentario>Cabello rubio, ojos azules, estatura media.</comentario>
+  </datos_persona>
+</personas>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<puertas_ventanas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ej2.xsd">
+  <puerta>cerrada</puerta>
+  <ventana>abierta</ventana>
+</puertas_ventanas>

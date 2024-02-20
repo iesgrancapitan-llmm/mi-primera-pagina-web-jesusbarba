@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="puertas_ventanas">
+    <xs:complexType>
+      <xs:sequence>
+        <!--Puerta con valor por defecto cerrada y ventana con valor fijo abierta.-->
+        <xs:element name="puerta" type="tipo" default="cerrada" minOccurs="1" maxOccurs="1" />
+        <xs:element name="ventana" type="tipo" fixed="abierta" minOccurs="1" maxOccurs="1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+    <!--Valores permitidos por los elementos puerta y ventana.-->
+    <xs:simpleType name="tipo">
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="abierta" />
+        <xs:enumeration value="cerrada"  />
+      </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

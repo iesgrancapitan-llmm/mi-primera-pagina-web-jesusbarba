@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="ej5.xsd">
+    <datos_persona fecha_nacimiento="1995-05-22">
+      <nombre>javi</nombre>
+      <apellidos>Perez Cano</apellidos>
+      <dni>12345678B</dni>
+       <comentario>Cabello rubio, ojos azules, estatura alta.</comentario>
+       <forma_pago>
+        <tipo>Tarjeta</tipo>
+        <numero>1234-5678-9012-3456</numero>
+       </forma_pago>
+    </datos_persona>
+</personas>
