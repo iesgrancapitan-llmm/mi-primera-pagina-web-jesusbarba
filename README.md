@@ -1,6 +1,6 @@
 # UD2 A1 Mi primera página Web
 
-**Index : [Index.html](https://ubiquitous-disco-8p9j4l1.pages.github.io/)**
+**Index : [Index.html](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-jesusbarba/)**
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
