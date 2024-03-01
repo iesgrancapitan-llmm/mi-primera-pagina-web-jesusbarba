@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<datos_persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validar_ejercicio.xsd">
+  <documento>
+    <dni>12345678Z</dni>
+    <dni>12345678z</dni>
+    <dni>12345678 Z</dni>
+    <dni>12345678-Z</dni>
+  </documento>
+  <coche>
+    <matricula>1234 BCD</matricula>
+    <matricula>5678 ZYX</matricula>
+  </coche>
+  <mac>
+    <direccion>AB-CD-F1-23-45-67</direccion>
+    <direccion>AB:CD:F1:23:45:67</direccion>
+  </mac>
+  <ips>
+    <ip>0.0.0.0</ip>
+    <ip>14.255.1.2</ip>
+  </ips>
+  <num>570.87</num>
+</datos_persona>

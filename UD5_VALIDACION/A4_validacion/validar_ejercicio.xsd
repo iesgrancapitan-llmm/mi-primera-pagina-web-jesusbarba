@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="datos_persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="documento"/>
+        <xs:element ref="coche"/>
+        <xs:element ref="mac"/>
+        <xs:element ref="ips"/>
+        <xs:element ref="num"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="documento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="dni" type="validar_dni" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="matricula" type="validar_matricula" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mac">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="direccion" type="validar_mac" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ips">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ip" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="num" type="validar_num"/>
+  <xs:simpleType name="validar_dni">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{8}[ -]?[A-Za-z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="validar_matricula">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{4} [^AEIOUQÑ]{3}"/>
+    </xs:restriction>  
+  </xs:simpleType>
+  <xs:simpleType name="validar_mac">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-F]{2}[-:]?[0-9A-F]{2}[-:]?[0-9A-F]{2}[-:]?[0-9]{2}[-:]?[0-9]{2}[-:]?[0-9]{2}"/>
+    </xs:restriction>  
+  </xs:simpleType>
+  <xs:simpleType name="validar_ips">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=""/>
+    </xs:restriction>  
+  </xs:simpleType>
+  <xs:simpleType name="validar_num">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="\d+(\.\d{1,2})?"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
